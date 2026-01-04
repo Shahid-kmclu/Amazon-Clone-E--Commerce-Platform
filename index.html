@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shahid — Web Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Shahid Ansari<span class="dot">.</span></a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- Theme toggle: switches between light and dark theme -->
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme" aria-pressed="false">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="menuBtn" class="menu-btn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy" data-aos="fade-up">
+        <p class="welcome">👋 Welcome</p>
+        <h1>Hi, I'm <span class="name">Shahid</span></h1>
+        <p class="subtitle">I am pursuing for <span id="typed"></span></p>
+        <p class="lead">Ex_ SDE Intern @Bluestock Fintech | Newbie @Codeforces (Max.Rating : 972) |1🌟@CodeChef (Max. Rating : 1210) | LeetCode_(Max Rating : 1436) ||</p>
+        <div class="cta">
+          <a class="btn primary" href="#contact">Hire Me</a>
+          <!-- Downloadable CV: replace assets/Shahid_CV.pdf with your real CV -->
+          <a class="btn" href="Untitled document.pdf" download="Shahid_CV.pdf">Download My_CV</a>
+        </div>
+      </div>
+
+      <div class="hero-photo" data-aos="fade-left">
+        <img src="IMG_20250909_234528.jpg" alt="Shahid profile">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-photo">
+          <!-- <img src="assets/profile.jpg" alt="Shahid photo"> -->
+        </div>
+        <div class="about-text">
+          <p class="bio">“Thank you for visiting my portfolio. I’d be happy to connect and exchange ideas 🤗🥰.”
+<br>
+<br>
+I am a passionate computer science enthusiast and competitive programmer with strong problem-solving skills. I regularly participate in coding contests on Codeforces, LeetCode, and CodeChef, where I sharpen my knowledge of data structures, algorithms, and analytical thinking.</p>
+          
+          <div class="education-section">
+            <h3 data-aos="fade-down">Education Timeline</h3>
+            <div class="timeline">
+              <!-- University -->
+              <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-dot">
+                  <div class="dot-pulse"></div>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <div class="edu-details">
+                      <div class="edu-badge current">Current</div>
+                      <span class="year">2024 - Present</span>
+                      <h4>Bachelor in Computer Science and Engineering
+                  
+                      </h4>
+                      <div class="edu-info">
+                        <p class="institute">Khwaja Moinuddin Chishti Language University (KMCLU)</p>
+                        <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Lucknow, Uttar Pradesh</p>
+                        <div class="edu-highlights">
+                          <span><i class="fas fa-laptop-code"></i> Computer Science</span>
+                          <span><i class="fas fa-graduation-cap"></i> Bachelor's Degree</span>
+                        </div>
+                        <div class="grade-section">
+                          <div class="grade-box">
+                            <div class="grade-circle">
+                              <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <path class="circle" stroke-dasharray="85, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                              </svg>
+                              <span class="grade-text">8.6</span>
+                            </div>
+                            <span class="grade-label">Current CGPA</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 12th -->
+              <div class="timeline-item" data-aos="fade-left">
+                <div class="timeline-dot">
+                  <div class="dot-pulse"></div>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <div class="edu-details">
+                      <span class="year">2021 - 2023</span>
+                      <h4>K B S I C D P  Yusufpur Vijay Ghazipur Uttar Pradesh  India. </h4>
+                      <div class="edu-info">
+                        <!-- <p class="institute">DJ Sindh Government Science College</p> -->
+                        <p class="edu-location"><i class="fas fa-map-marker-alt"></i>Ghazipur, Uttar Pradesh India</p>
+                        <div class="edu-highlights">
+                          <span><i class="fas fa-microscope"></i> Science Stream</span>
+                          <!-- <span><i class="fas fa-award"></i>XII</span> -->
+                        </div>
+                        <div class="grade-section">
+                          <div class="grade-box">
+                            <div class="grade-circle">
+                              <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <path class="circle" stroke-dasharray="92, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                              </svg>
+                              <span class="grade-text">91.4%</span>
+                            </div>
+                            <span class="grade-label">12th_First Division</span>
+                          </div>
+                          <div class="subjects">
+                            <span class="subject-tag">Physics</span>
+                            <span class="subject-tag">Chemistry</span>
+                            <span class="subject-tag">Mathematics</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 10th -->
+              <div class="timeline-item" data-aos="fade-right">
+                <div class="timeline-dot">
+                  <div class="dot-pulse"></div>
+                </div>
+                <div class="timeline-content">
+                  <div class="timeline-card">
+                    <div class="edu-icon"><i class="fas fa-book"></i></div>
+                    <div class="edu-details">
+                      <span class="year">2019 - 2021</span>
+                      <h4>K B S I C D P  Yusufpur Vijay Ghazipur Uttar Pradesh  India.</h4>
+                      <div class="edu-info">
+                        <!-- <p class="institute">G</p> -->
+                        <p class="edu-location"><i class="fas fa-map-marker-alt"></i> Ghazipur, Uttar Pradesh India</p>
+                        <div class="edu-highlights">
+                          <!-- <span><i class="fas fa-star"></i>X</span> -->
+                          <span><i class="fas fa-book-open"></i> General Sciences</span>
+                        </div>
+                        <div class="grade-section">
+                          <div class="grade-box">
+                            <div class="grade-circle">
+                              <svg viewBox="0 0 36 36" class="circular-chart">
+                                <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                                <path class="circle" stroke-dasharray="88, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                              </svg>
+                              <span class="grade-text">87.7%</span>
+                            </div>
+                            <span class="grade-label"> 10th_First Division</span>
+                          </div>
+                          <div class="subjects">
+                            <span class="subject-tag">Science</span>
+                            <span class="subject-tag">Mathematics</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <ul class="contact-details">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:shahidup010623@gmail.com">shahidup010623@gmail.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Address: Sitapur–Hardoi Bypass Road, Near Indian Institute of Management Lucknow (IIM Lucknow), Lucknow, Uttar Pradesh – 226013</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <div class="container" data-aos="fade-up">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><span>
+
+Competitive Programming </span><div class="progress"><div class="fill" style="width:95%"></div></div></div>
+        <div class="skill"><span>
+
+C++ Developer.</span><div class="progress"><div class="fill" style="width:95%"></div></div></div>
+        <div class="skill"><span>
+Advance Mathematics </span><div class="progress"><div class="fill" style="width:90%"></div></div></div>
+        <div class="skill"><span>
+
+High-Frequency Trading </span><div class="progress"><div class="fill" style="width:85%"></div></div></div>
+        <div class="skill"><span>
+Git and GitHub</span><div class="progress"><div class="fill" style="width:80%"></div></div></div>
+        <div class="skill"><span> Project Management</span><div class="progress"><div class="fill" style="width:75%"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="experience">
+    <div class="container" data-aos="fade-up">
+      <h2>Work Experience</h2>
+      <div class="experience-grid">
+        <!-- Bluestock Internship -->
+        <article class="experience-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="experience-header">
+            <div class="company-logo">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="experience-title">
+              <h3>Software Development Engineer Intern</h3>
+              <div class="company-info">
+                <span class="company-name">
+                  <i class="fas fa-briefcase"></i>
+                  Bluestock Technologies
+                </span>
+                <span class="experience-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  sept 2025 - oct 2025
+                </span>
+                <span class="experience-type">
+                  <i class="fas fa-map-marker-alt"></i>
+                  Remote
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-content">
+            <ul class="achievements">
+              <li>Developed and maintained scalable web applications using React.js and Node.js</li>
+              <li>Optimized database queries resulting in 40% improvement in application performance</li>
+              <li>Implemented real-time data synchronization using WebSocket technology</li>
+              <li>Collaborated with senior developers to implement new features and fix bugs</li>
+            </ul>
+            <div class="tech-stack">
+              <span class="tech">Python</span>
+              <span class="tech">html</span>
+              <span class="tech">css</span>
+              <span class="tech">JavaScript</span>
+              <span class="tech">Git</span>
+              <span class="tech">GitHub</span>
+              <span class="tech">Project Management</span>
+              <span class="tech">Team Management</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- GSSOC 2025 -->
+        <article class="experience-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="experience-header">
+            <div class="company-logo gssoc">
+              <i class="fas fa-code-branch"></i>
+            </div>
+            <div class="experience-title">
+              <h3>Open Source Contributor</h3>
+              <div class="company-info">
+                <span class="company-name">
+                  <i class="fas fa-code"></i>
+                  GirlScript Summer of Code 2025
+                </span>
+                <span class="experience-duration">
+                  <i class="fas fa-calendar-alt"></i>
+                  May 2025 - July 2025
+                </span>
+                <span class="experience-type">
+                  <i class="fas fa-globe"></i>
+                  Open Source Program
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="experience-content">
+            <ul class="achievements">
+              <li>Ranked in top 50 contributors among 1500+ participants</li>
+              <li>Contributed to 5+ open source projects improving code quality and documentation</li>
+              <li>Fixed critical bugs and implemented new features in various JavaScript frameworks</li>
+              <li>Collaborated with maintainers and other contributors via GitHub</li>
+            </ul>
+            <div class="tech-stack">
+               <!-- <span class="tech">JavaScript</span>
+              <span class="tech">React</span>
+              <span class="tech">Vue.js</span> -->
+               <span class="tech">Git</span> 
+              <span class="tech">GitHub</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Let's discuss your project or just say hello!</p>
+      
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-cards">
+            <div class="info-card" data-aos="fade-up" data-aos-delay="100">
+              <div class="card-icon">
+                <i class="fas fa-envelope-open-text"></i>
+              </div>
+              <div class="card-content">
+                <h4>Email Me</h4>
+                <p>I'll respond within 24 hours</p>
+                <a href="mailto:shahidup010623@gmail.com" class="contact-link">
+                  shahidup010623@gmail.com
+                  <i class="fas fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="info-card map-location-card" data-aos="fade-up" data-aos-delay="200">
+              <div class="map-location-content">
+                <div class="card-icon">
+                  <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="card-content">
+                  <h4>Location</h4>
+                  <div class="location-details">
+                    <div class="address-info">
+                      <p class="availability"></p>
+                      <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                          <p class="location-primary">Address: Sitapur–Hardoi Bypass Road, Near Indian Institute of Management Lucknow (IIM Lucknow), Lucknow, Uttar Pradesh – 226013.</p>
+                          <!-- <p class="location-secondary">Sitapur Road, Lucknow</p>
+                          <p class="location-country">Uttar Pradesh, India</p> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="location-stats">
+                      <div class="stat">
+                        <i class="fas fa-clock"></i>
+                        <span>UTC +5:30</span>
+                      </div>
+                      <div class="stat">
+                        <i class="fas fa-language"></i>
+                        <span>English, Hindi</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="location-map-wrapper">
+                <div class="map-overlay">
+                  <div class="map-pin">
+                    <i class="fas fa-map-pin"></i>
+                  </div>
+                </div>
+                <div class="location-map">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.515382277193!2d80.98923427535183!3d26.859316476097382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfd09a7549863%3A0xe390cf8647cd0188!2sKhwaja%20Moinuddin%20Chishti%20Language%20University!5e0!3m2!1sen!2sin!4v1699027896124!5m2!1sen!2sin"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    aria-label="Map showing KMCLU, Lucknow"></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card" data-aos="fade-up" data-aos-delay="300">
+              <div class="card-icon">
+                <i class="fas fa-share-alt"></i>
+              </div>
+              <div class="card-content">
+                <h4>Social Profiles</h4>
+                <p>Let's connect and collaborate</p>
+                <div class="social-icons">
+                  <a href="https://github.com/Shahid-kmclu" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="inkedin.com/in/shahid-ansari-911625327" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://wa.me/YourNumber" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                  <a href="mailto:shahidup010623@gmail.com" class="email-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form id="contactForm" class="contact-form" 
+      method="POST"
+      action="https://script.google.com/macros/s/AKfycbyrjv9WWAN5plSW1vewmi0UL8ZvjaTVh5W3l88M1DRozcsPkMDJsK7xHtfHo7nFHPY_/exec"
+      data-aos="fade-up" data-aos-delay="200">
+
+          <div class="form-header">
+            <h3>Send a Message</h3>
+            <p>Fill out the form below and I'll get back to you soon!</p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">
+              <i class="fas fa-user"></i>
+              <input type="text" name="Name" placeholder="Your Name" required>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">
+              <i class="fas fa-envelope"></i>
+              <input type="email" name="Email" placeholder="Your Email" required>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">
+              <i class="fas fa-pen-fancy"></i>
+              <input type="text" name="Mobile Number" placeholder="Mobile Number" required>
+            </label>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">
+              <i class="fas fa-comment-alt"></i>
+              <textarea name="Message" placeholder="Your Message" rows="6" required></textarea>
+            </label>
+          </div>
+
+          <button type="submit" class="btn primary submit-btn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+          
+          <div class="form-footer">
+            <p class="privacy-note">
+              <i class="fas fa-shield-alt"></i>
+              Your information is protected and will never be shared with third parties.
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="footer-logo" href="#home">
+            Motivational<span class="dot">.</span>
+          </a>
+          <p class="footer-desc">🧑‍💻 Make our carrier and Don't stop until you are in the top 0.1%.✨.</p>
+          <div class="social-links">
+            <a href="https://github.com/YourGithub" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/YourLinkedIn" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://wa.me/YourNumber" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Profile">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:shahidup010623@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <ul>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:shahidup010623@gmail.com">shahidup010623@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              Address: Sitapur–Hardoi Bypass Road, Near Indian Institute of Management Lucknow (IIM Lucknow), Lucknow, Uttar Pradesh – 226013.
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h4>Top Coding Platforms</h4>
+          <p>Follow my coding journey and problem-solving adventures</p>
+          <div class="coding-profiles">
+            <a href="https://leetcode.com/u/shahid_132/" target="_blank" rel="noopener noreferrer" class="platform-link leetcode">
+              <i class="fas fa-code"></i>
+              <span>LeetCode</span>
+              <span class="platform-stats">25+ Problems</span>
+            </a>
+            <a href="https://www.codechef.com/users/shahid_132" target="_blank" rel="noopener noreferrer" class="platform-link codechef">
+              <i class="fas fa-laptop-code"></i>
+              <span>CodeChef</span>
+              <span class="platform-stats">1★ Coder</span>
+            </a>
+            <a href="https://codeforces.com/profile/KMC272117_Shahid" target="_blank" rel="noopener noreferrer" class="platform-link codeforces">
+              <i class="fas fa-square-root-alt"></i>
+              <span>Codeforces</span>
+              <span class="platform-stats">Nawbie</span>
+            </a>
+            <a href="https://www.hackerrank.com/profile/shahidup010623" target="_blank" rel="noopener noreferrer" class="platform-link hackerrank">
+              <i class="fab fa-hackerrank"></i>
+              <span>HackerRank</span>
+              <span class="platform-stats">3★ Problem Solving</span>
+            </a>
+          </div>
+          <div class="newsletter-divider"></div>
+          <form class="newsletter-form" action="https://script.google.com/macros/s/AKfycbyrjv9WWAN5plSW1vewmi0UL8ZvjaTVh5W3l88M1DRozcsPkMDJsK7xHtfHo7nFHPY_/exec" method="POST">
+            <input type="email" placeholder="Enter your email for coding updates" required>
+            <button type="submit" class="btn primary">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">&copy; <span id="year">2025</span> Shahid. All rights reserved.</p>
+        <ul class="footer-legal">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
